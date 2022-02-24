@@ -46,6 +46,10 @@ public class Customer {
         this.address = address;
     }
 
+    public void printHello(){
+        System.out.println("Hello dear " + name);
+    }
+
     @Override
     public String toString() {
         return "Customer{" +

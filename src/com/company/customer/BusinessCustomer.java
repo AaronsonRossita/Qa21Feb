@@ -18,6 +18,12 @@ public class BusinessCustomer extends Customer{
     }
 
     @Override
+    public void printHello() {
+        super.printHello();
+        System.out.println("You're the best " + getName());
+    }
+
+    @Override
     public String toString() {
         return "BusinessCustomer{" +
                 "amount = " + this.getAmount() +

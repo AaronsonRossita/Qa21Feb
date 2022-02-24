@@ -8,6 +8,8 @@ import com.company.person.Car;
 import com.company.person.Id;
 import com.company.person.Person;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -38,6 +40,10 @@ public class Main {
         BusinessCustomer bCustomer1 =
                 new BusinessCustomer(4,"Mashu",true,
                         new Address("Dekel",3,8,"Kfar Saba"),15);
+
+//        customer1.printHello();
+//        pCustomer1.printHello();
+//        bCustomer1.printHello();
 //
 //        System.out.println(customer1);
 //        System.out.println(pCustomer1.toString());
@@ -54,7 +60,53 @@ public class Main {
 //
 //        Person person2 = new Person(new Car(1.6,6,false));
 //        System.out.println(person2.getMyCar().getSeats());
+        int[] arr = {1,2,3};
+
+//        printSqrA(8);
+//        printSqrA(8.2);
+//        printSqrA(arr);
 
 
+//        ArrayList list = new ArrayList();
+//        list.add("String");
+//        list.add(true);
+//        list.add(2.8);
+//        System.out.println(list.toString());
+//        list.add(1,false);
+//        System.out.println(list);
+//        list.set(1,4);
+//        System.out.println(list);
+
+        int x = 5;
+        Integer y = 7;
+
+        double d = 1.2;
+        Double d1 = 1.3;
+
+        boolean b = true;
+        Boolean b1 = false;
+
+        ArrayList<Integer> list2 = new ArrayList<>();
+        list2.add(4);
+        list2.add(x);
+        list2.add(y);
+        System.out.println(list2.toString());
+    }
+
+//      overload
+    static void printSqrA(int a){
+        System.out.println(a * a);
+    }
+
+    static void printSqrA(double a){
+        System.out.println(a * a);
+    }
+
+    static void printSqrA(int[] a){
+        int temp = 1;
+        for (int i = 0; i < a.length; i++) {
+            temp *= a[i];
+        }
+        System.out.println(temp);
     }
 }

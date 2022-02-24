@@ -27,4 +27,9 @@ public class PrivateCustomer extends Customer {
     public void setService(boolean service) {
         this.service = service;
     }
+
+    @Override
+    public void printHello() {
+        System.out.println("We don't like you " + getName());
+    }
 }
