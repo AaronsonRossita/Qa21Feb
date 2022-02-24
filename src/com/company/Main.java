@@ -4,6 +4,9 @@ import com.company.customer.Address;
 import com.company.customer.BusinessCustomer;
 import com.company.customer.Customer;
 import com.company.customer.PrivateCustomer;
+import com.company.person.Car;
+import com.company.person.Id;
+import com.company.person.Person;
 
 public class Main {
 
@@ -39,10 +42,18 @@ public class Main {
 //        System.out.println(customer1);
 //        System.out.println(pCustomer1.toString());
 //        System.out.println(bCustomer1);
-        System.out.println(customer1.getAddress().getStreet());
-        System.out.println(pCustomer1.getAddress().getStreet());
-        System.out.println(bCustomer1.getAddress().getStreet());
+//        System.out.println(customer1.getAddress().getStreet());
+//        System.out.println(pCustomer1.getAddress().getStreet());
+//        System.out.println(bCustomer1.getAddress().getStreet());
 
+//        Car car1 = new Car(1.2,4,true);
+//        Person person1 = new Person(car1);
+//
+//        System.out.println(person1.getMyCar().getEngine());
+//        System.out.println(car1.getEngine());
+//
+//        Person person2 = new Person(new Car(1.6,6,false));
+//        System.out.println(person2.getMyCar().getSeats());
 
 
     }
